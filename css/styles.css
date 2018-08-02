@@ -1,6 +1,7 @@
 /* Global Styles */
 body {
   font-family: 'PT Mono', monospace;
+  position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,6 +13,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Navbar */
+.navbar-default {
+  background: #000000;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar {
+  border: 0;
+}
+
 .navbar-brand h1 {
   font-family: 'Permanent Marker', cursive;
   margin: 0;
@@ -34,6 +56,16 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center;
 }
 
+/* Menu-Section */
+.menu-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.tab-pane {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 /* Reservation Section */
 .reservation-section {
